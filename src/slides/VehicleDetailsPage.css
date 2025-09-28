@@ -1,0 +1,36 @@
+.vehicle-details {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.carousel img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.book-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: #f0a500;
+  color: #fff;
+  border-radius: 8px;
+}
+.book-btn:hover {
+  background-color: #c07a00;
+}

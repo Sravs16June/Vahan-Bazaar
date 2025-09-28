@@ -1,0 +1,49 @@
+/* Global Reset & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+a:hover {
+  color: #0056b3;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Flex utility */
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,47 @@
+:root {
+  --primary: #0077ff;
+  --secondary: #ff6600;
+  --bg-light: #f9f9f9;
+  --bg-dark: #222;
+  --text-dark: #333;
+  --text-light: #fff;
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--primary);
+}
+
+button {
+  background: var(--primary);
+  color: var(--text-light);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: var(--secondary);
+}

@@ -1,0 +1,54 @@
+.contact-page {
+  font-family: "Poppins", sans-serif;
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.contact-page h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+}
+
+.contact-page input,
+.contact-page textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-page button {
+  padding: 12px;
+  border-radius: 6px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-page button:hover {
+  background: #005fcc;
+}
+
+.contact-page .success {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.contact-page .map {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+}
