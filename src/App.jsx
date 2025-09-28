@@ -14,6 +14,8 @@ import BuyPage from "./slides/BuyPage";
 import SellPage from "./slides/SellPage";
 import AboutPage from "./slides/AboutPage";
 import ContactPage from "./slides/ContactPage";
+import LoginPage from "./slides/LoginPage";
+import SignupPage from "./slides/Si8gnupPage";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
           <Route path="/upcoming-launches" element={<UpcomingLaunches />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="signup" element={<SignupPage />} />
         </Routes>
         <Footer />
       </Router>

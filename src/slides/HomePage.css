@@ -169,3 +169,22 @@
     width: 200px;
   }
 }
+
+.hero-buttons .btn.auth {
+  background: #28a745;
+  color: white;
+  margin: 0 10px;
+}
+
+.hero-buttons .btn.auth:hover {
+  background: #1e7e34;
+}
+
+.hero-buttons .btn.secondary-auth {
+  background: #ffc107;
+  color: #333;
+}
+
+.hero-buttons .btn.secondary-auth:hover {
+  background: #e0a800;
+}
